@@ -33,6 +33,7 @@ REGISTRY_NACOS_VERSION=0.0.1
 REGISTRY_POLARIS_VERSION=0.0.1
 REGISTRY_SERVICECOMB_VERSION=0.0.1
 REGISTRY_ZOOKEEPER_VERSION=0.0.1
+REGISTRY_LOCAL_VERSION=0.0.1
 
 # 远程配置相关版本
 REMOTECONFIG_APOLLO_VERSION=0.0.1
@@ -73,6 +74,7 @@ git tag database/cassandra/v${DATABASE_CASSANDRA_VERSION} --force
 
 # 服务注册标签
 git tag registry/v${REGISTRY_VERSION} --force
+git tag registry/local/v${REGISTRY_LOCAL_VERSION} --force
 git tag registry/consul/v${REGISTRY_CONSUL_VERSION} --force
 git tag registry/etcd/v${REGISTRY_ETCD_VERSION} --force
 git tag registry/eureka/v${REGISTRY_EUREKA_VERSION} --force
