@@ -1,4 +1,4 @@
-module github.com/shuaiyy/kratos-bootstrap/api
+module github.com/zbl-jerry/kratos-bootstrap/api
 
 go 1.24.6
 

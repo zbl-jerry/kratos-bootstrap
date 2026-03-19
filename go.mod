@@ -1,4 +1,4 @@
-module github.com/shuaiyy/kratos-bootstrap
+module github.com/zbl-jerry/kratos-bootstrap
 
 go 1.23.0
 

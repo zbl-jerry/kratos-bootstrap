@@ -16,8 +16,8 @@ import (
 	traceSdk "go.opentelemetry.io/otel/sdk/trace"
 	semConv "go.opentelemetry.io/otel/semconv/v1.4.0"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
-	"github.com/shuaiyy/kratos-bootstrap/utils"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
+	"github.com/zbl-jerry/kratos-bootstrap/utils"
 )
 
 // NewTracerExporter 创建一个导出器，支持：zipkin、otlp-http、otlp-grpc

@@ -9,7 +9,7 @@ import (
 	mongoV2 "go.mongodb.org/mongo-driver/v2/mongo"
 	optionsV2 "go.mongodb.org/mongo-driver/v2/mongo/options"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 type Client struct {

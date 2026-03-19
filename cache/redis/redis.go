@@ -6,7 +6,7 @@ import (
 	"github.com/redis/go-redis/extra/redisotel/v9"
 	"github.com/redis/go-redis/v9"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 // NewClient create go-redis client

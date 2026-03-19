@@ -7,8 +7,8 @@ import (
 	polarisApi "github.com/polarismesh/polaris-go/api"
 	polarisModel "github.com/polarismesh/polaris-go/pkg/model"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
-	r "github.com/shuaiyy/kratos-bootstrap/registry"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
+	r "github.com/zbl-jerry/kratos-bootstrap/registry"
 )
 
 func init() {

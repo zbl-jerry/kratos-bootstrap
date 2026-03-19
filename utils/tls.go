@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 // 双向验证：server端提供证书(cert和key)，还必须配置cerfiles即CA根证书，因为需要验证client端提供的证书。另外client也端必须提供一样的内容，即client端的证书(cert/key)以供server端验证，并且提供CA根证书验证server端提供的证书。

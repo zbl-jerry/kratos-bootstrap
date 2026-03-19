@@ -491,7 +491,7 @@ const file_conf_v1_kratos_conf_authz_proto_rawDesc = "" +
 	"\tclient_id\x18\x04 \x01(\tR\bclientIdB\a\n" +
 	"\x05_ketoB\v\n" +
 	"\t_open_fgaB\x88\x01\n" +
-	"\bcom.confB\x14KratosConfAuthzProtoP\x01Z6github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1\xa2\x02\x03CXX\xaa\x02\x04Conf\xca\x02\x04Conf\xe2\x02\x10Conf\\GPBMetadata\xea\x02\x04Confb\x06proto3"
+	"\bcom.confB\x14KratosConfAuthzProtoP\x01Z6github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1\xa2\x02\x03CXX\xaa\x02\x04Conf\xca\x02\x04Conf\xe2\x02\x10Conf\\GPBMetadata\xea\x02\x04Confb\x06proto3"
 
 var (
 	file_conf_v1_kratos_conf_authz_proto_rawDescOnce sync.Once

@@ -1,13 +1,13 @@
-module github.com/shuaiyy/kratos-bootstrap/remoteconfig/apollo
+module github.com/zbl-jerry/kratos-bootstrap/remoteconfig/apollo
 
 go 1.24.6
 
-replace github.com/shuaiyy/kratos-bootstrap/api => ../../api
+replace github.com/zbl-jerry/kratos-bootstrap/api => ../../api
 
 require (
 	github.com/apolloconfig/agollo/v4 v4.4.0
 	github.com/go-kratos/kratos/v2 v2.9.1
-	github.com/shuaiyy/kratos-bootstrap/api v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
 )
 
 require (

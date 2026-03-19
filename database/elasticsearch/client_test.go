@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/go-kratos/kratos/v2/log"
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
 	"github.com/stretchr/testify/assert"
 )
 

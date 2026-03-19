@@ -8,7 +8,7 @@ import (
 
 	consulApi "github.com/hashicorp/consul/api"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 // getConfigKey 获取合法的配置名

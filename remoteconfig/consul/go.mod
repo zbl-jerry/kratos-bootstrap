@@ -1,17 +1,17 @@
-module github.com/shuaiyy/kratos-bootstrap/remoteconfig/consul
+module github.com/zbl-jerry/kratos-bootstrap/remoteconfig/consul
 
 go 1.24.6
 
 replace (
 	github.com/armon/go-metrics => github.com/hashicorp/go-metrics v0.4.1
 
-	github.com/shuaiyy/kratos-bootstrap/api => ../../api
+	github.com/zbl-jerry/kratos-bootstrap/api => ../../api
 )
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.1
 	github.com/hashicorp/consul/api v1.32.1
-	github.com/shuaiyy/kratos-bootstrap/api v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
 )
 
 require (

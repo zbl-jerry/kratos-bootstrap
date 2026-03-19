@@ -11,8 +11,8 @@ import (
 	elasticsearchV9 "github.com/elastic/go-elasticsearch/v9"
 	esapiV9 "github.com/elastic/go-elasticsearch/v9/esapi"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
-	pagination "github.com/shuaiyy/kratos-bootstrap/api/gen/go/pagination/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
+	pagination "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/pagination/v1"
 )
 
 type Client struct {

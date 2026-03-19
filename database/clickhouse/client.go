@@ -13,8 +13,8 @@ import (
 	driverV2 "github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 
 	"github.com/go-kratos/kratos/v2/log"
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
-	"github.com/shuaiyy/kratos-bootstrap/utils"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
+	"github.com/zbl-jerry/kratos-bootstrap/utils"
 )
 
 type Creator func() any

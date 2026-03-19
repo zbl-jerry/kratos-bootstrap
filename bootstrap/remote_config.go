@@ -3,13 +3,13 @@ package bootstrap
 import (
 	"github.com/go-kratos/kratos/v2/config"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
 
-	"github.com/shuaiyy/kratos-bootstrap/remoteconfig/apollo"
-	"github.com/shuaiyy/kratos-bootstrap/remoteconfig/consul"
-	"github.com/shuaiyy/kratos-bootstrap/remoteconfig/etcd"
-	"github.com/shuaiyy/kratos-bootstrap/remoteconfig/nacos"
-	"github.com/shuaiyy/kratos-bootstrap/remoteconfig/polaris"
+	"github.com/zbl-jerry/kratos-bootstrap/remoteconfig/apollo"
+	"github.com/zbl-jerry/kratos-bootstrap/remoteconfig/consul"
+	"github.com/zbl-jerry/kratos-bootstrap/remoteconfig/etcd"
+	"github.com/zbl-jerry/kratos-bootstrap/remoteconfig/nacos"
+	"github.com/zbl-jerry/kratos-bootstrap/remoteconfig/polaris"
 )
 
 const remoteConfigSourceConfigFile = "remote.yaml"

@@ -1,17 +1,17 @@
-module github.com/shuaiyy/kratos-bootstrap/database/clickhouse
+module github.com/zbl-jerry/kratos-bootstrap/database/clickhouse
 
 go 1.24.6
 
 replace (
-	github.com/shuaiyy/kratos-bootstrap/api => ../../api
-	github.com/shuaiyy/kratos-bootstrap/utils => ../../utils
+	github.com/zbl-jerry/kratos-bootstrap/api => ../../api
+	github.com/zbl-jerry/kratos-bootstrap/utils => ../../utils
 )
 
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.40.3
 	github.com/go-kratos/kratos/v2 v2.9.1
-	github.com/shuaiyy/kratos-bootstrap/api v0.0.1
-	github.com/shuaiyy/kratos-bootstrap/utils v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/utils v0.0.1
 	github.com/stretchr/testify v1.11.1
 	google.golang.org/protobuf v1.36.9
 )

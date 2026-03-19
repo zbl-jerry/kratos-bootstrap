@@ -1,19 +1,19 @@
-module github.com/shuaiyy/kratos-bootstrap/registry/kubernetes
+module github.com/zbl-jerry/kratos-bootstrap/registry/kubernetes
 
 go 1.24.6
 
 replace (
 	github.com/armon/go-metrics => github.com/hashicorp/go-metrics v0.4.1
 
-	github.com/shuaiyy/kratos-bootstrap/api => ../../api
-	github.com/shuaiyy/kratos-bootstrap/registry => ../
+	github.com/zbl-jerry/kratos-bootstrap/api => ../../api
+	github.com/zbl-jerry/kratos-bootstrap/registry => ../
 )
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.1
 	github.com/json-iterator/go v1.1.12
-	github.com/shuaiyy/kratos-bootstrap/api v0.0.1
-	github.com/shuaiyy/kratos-bootstrap/registry v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/registry v0.0.1
 	github.com/stretchr/testify v1.11.1
 	k8s.io/api v0.34.1
 	k8s.io/apimachinery v0.34.1

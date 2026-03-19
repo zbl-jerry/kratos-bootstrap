@@ -6,7 +6,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 // NewLogger 创建一个新的日志记录器 - Logrus

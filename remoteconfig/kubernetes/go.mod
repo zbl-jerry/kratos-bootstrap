@@ -1,12 +1,12 @@
-module github.com/shuaiyy/kratos-bootstrap/remoteconfig/kubernetes
+module github.com/zbl-jerry/kratos-bootstrap/remoteconfig/kubernetes
 
 go 1.24.6
 
-replace github.com/shuaiyy/kratos-bootstrap/api => ../../api
+replace github.com/zbl-jerry/kratos-bootstrap/api => ../../api
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.1
-	github.com/shuaiyy/kratos-bootstrap/api v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
 	k8s.io/api v0.34.1
 	k8s.io/apimachinery v0.34.1
 	k8s.io/client-go v0.34.1

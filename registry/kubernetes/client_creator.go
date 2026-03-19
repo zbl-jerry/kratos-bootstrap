@@ -11,8 +11,8 @@ import (
 	k8sTools "k8s.io/client-go/tools/clientcmd"
 	k8sUtil "k8s.io/client-go/util/homedir"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
-	r "github.com/shuaiyy/kratos-bootstrap/registry"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
+	r "github.com/zbl-jerry/kratos-bootstrap/registry"
 )
 
 func init() {

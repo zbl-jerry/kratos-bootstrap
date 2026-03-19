@@ -15,7 +15,7 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 // NewGormClient 创建GORM数据库客户端

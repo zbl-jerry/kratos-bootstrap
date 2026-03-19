@@ -7,8 +7,8 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
-	"github.com/shuaiyy/kratos-bootstrap/utils"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
+	"github.com/zbl-jerry/kratos-bootstrap/utils"
 )
 
 func NewCassandraClient(cfg *conf.Bootstrap, l *log.Helper) *gocql.Session {

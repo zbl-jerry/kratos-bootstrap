@@ -2,18 +2,18 @@ package bootstrap
 
 import (
 	kRegistry "github.com/go-kratos/kratos/v2/registry"
-	"github.com/shuaiyy/kratos-bootstrap/registry"
+	"github.com/zbl-jerry/kratos-bootstrap/registry"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
 
-	_ "github.com/shuaiyy/kratos-bootstrap/registry/consul"
-	_ "github.com/shuaiyy/kratos-bootstrap/registry/etcd"
-	_ "github.com/shuaiyy/kratos-bootstrap/registry/eureka"
+	_ "github.com/zbl-jerry/kratos-bootstrap/registry/consul"
+	_ "github.com/zbl-jerry/kratos-bootstrap/registry/etcd"
+	_ "github.com/zbl-jerry/kratos-bootstrap/registry/eureka"
 
-	//_ "github.com/shuaiyy/kratos-bootstrap/registry/kubernetes"
-	_ "github.com/shuaiyy/kratos-bootstrap/registry/nacos"
-	_ "github.com/shuaiyy/kratos-bootstrap/registry/servicecomb"
-	_ "github.com/shuaiyy/kratos-bootstrap/registry/zookeeper"
+	//_ "github.com/zbl-jerry/kratos-bootstrap/registry/kubernetes"
+	_ "github.com/zbl-jerry/kratos-bootstrap/registry/nacos"
+	_ "github.com/zbl-jerry/kratos-bootstrap/registry/servicecomb"
+	_ "github.com/zbl-jerry/kratos-bootstrap/registry/zookeeper"
 )
 
 // NewRegistry 创建一个注册客户端

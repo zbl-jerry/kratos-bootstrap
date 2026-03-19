@@ -20,12 +20,12 @@ import (
 	"github.com/go-kratos/kratos/v2/middleware/recovery"
 	"github.com/go-kratos/kratos/v2/middleware/tracing"
 
-	"github.com/shuaiyy/kratos-bootstrap/rpc/middleware/validate"
+	"github.com/zbl-jerry/kratos-bootstrap/rpc/middleware/validate"
 
 	kratosGrpc "github.com/go-kratos/kratos/v2/transport/grpc"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
-	"github.com/shuaiyy/kratos-bootstrap/utils"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
+	"github.com/zbl-jerry/kratos-bootstrap/utils"
 )
 
 const defaultTimeout = 5 * time.Second

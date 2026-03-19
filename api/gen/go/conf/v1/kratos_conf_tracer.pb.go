@@ -109,7 +109,7 @@ const file_conf_v1_kratos_conf_tracer_proto_rawDesc = "" +
 	"\asampler\x18\x03 \x01(\x01R\asampler\x12\x10\n" +
 	"\x03env\x18\x04 \x01(\tR\x03env\x12\x1a\n" +
 	"\binsecure\x18\x05 \x01(\bR\binsecureB\x89\x01\n" +
-	"\bcom.confB\x15KratosConfTracerProtoP\x01Z6github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1\xa2\x02\x03CXX\xaa\x02\x04Conf\xca\x02\x04Conf\xe2\x02\x10Conf\\GPBMetadata\xea\x02\x04Confb\x06proto3"
+	"\bcom.confB\x15KratosConfTracerProtoP\x01Z6github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1\xa2\x02\x03CXX\xaa\x02\x04Conf\xca\x02\x04Conf\xe2\x02\x10Conf\\GPBMetadata\xea\x02\x04Confb\x06proto3"
 
 var (
 	file_conf_v1_kratos_conf_tracer_proto_rawDescOnce sync.Once

@@ -215,7 +215,7 @@ const file_pagination_v1_pagination_proto_rawDesc = "" +
 	"\x0ePagingResponse\x12\x14\n" +
 	"\x05total\x18\x01 \x01(\x05R\x05total\x12\x14\n" +
 	"\x05items\x18\x02 \x03(\fR\x05itemsB\xa7\x01\n" +
-	"\x0ecom.paginationB\x0fPaginationProtoP\x01Z<github.com/shuaiyy/kratos-bootstrap/api/gen/go/pagination/v1\xa2\x02\x03PXX\xaa\x02\n" +
+	"\x0ecom.paginationB\x0fPaginationProtoP\x01Z<github.com/zbl-jerry/kratos-bootstrap/api/gen/go/pagination/v1\xa2\x02\x03PXX\xaa\x02\n" +
 	"Pagination\xca\x02\n" +
 	"Pagination\xe2\x02\x16Pagination\\GPBMetadata\xea\x02\n" +
 	"Paginationb\x06proto3"

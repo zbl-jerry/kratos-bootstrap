@@ -230,7 +230,7 @@ const file_conf_v1_kratos_conf_tls_proto_rawDesc = "" +
 	"\a_ca_pemB\a\n" +
 	"\x05_fileB\t\n" +
 	"\a_configB\x86\x01\n" +
-	"\bcom.confB\x12KratosConfTlsProtoP\x01Z6github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1\xa2\x02\x03CXX\xaa\x02\x04Conf\xca\x02\x04Conf\xe2\x02\x10Conf\\GPBMetadata\xea\x02\x04Confb\x06proto3"
+	"\bcom.confB\x12KratosConfTlsProtoP\x01Z6github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1\xa2\x02\x03CXX\xaa\x02\x04Conf\xca\x02\x04Conf\xe2\x02\x10Conf\\GPBMetadata\xea\x02\x04Confb\x06proto3"
 
 var (
 	file_conf_v1_kratos_conf_tls_proto_rawDescOnce sync.Once

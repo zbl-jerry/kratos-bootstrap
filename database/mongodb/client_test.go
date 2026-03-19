@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/shuaiyy/go-utils/trans"
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

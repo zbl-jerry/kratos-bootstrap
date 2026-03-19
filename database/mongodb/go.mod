@@ -1,13 +1,13 @@
-module github.com/shuaiyy/kratos-bootstrap/database/mongodb
+module github.com/zbl-jerry/kratos-bootstrap/database/mongodb
 
 go 1.24.6
 
-replace github.com/shuaiyy/kratos-bootstrap/api => ../../api
+replace github.com/zbl-jerry/kratos-bootstrap/api => ../../api
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.1
 	github.com/shuaiyy/go-utils v0.0.3
-	github.com/shuaiyy/kratos-bootstrap/api v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
 	github.com/stretchr/testify v1.11.1
 	go.mongodb.org/mongo-driver/v2 v2.3.0
 	google.golang.org/protobuf v1.36.9

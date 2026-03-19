@@ -2,7 +2,7 @@ package kubernetes
 
 import (
 	"github.com/stretchr/testify/assert"
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
 	"testing"
 )
 

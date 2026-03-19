@@ -4,7 +4,7 @@ import (
 	tencentLogger "github.com/go-kratos/kratos/contrib/log/tencent/v2"
 	"github.com/go-kratos/kratos/v2/log"
 
-	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	conf "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1"
 )
 
 // NewLogger 创建一个新的日志记录器 - Tencent

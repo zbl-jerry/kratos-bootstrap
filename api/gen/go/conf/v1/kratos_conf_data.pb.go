@@ -2091,7 +2091,7 @@ const file_conf_v1_kratos_conf_data_proto_rawDesc = "" +
 	"\x04_nsqB\t\n" +
 	"\a_pulsarB\v\n" +
 	"\t_rocketmqB\x87\x01\n" +
-	"\bcom.confB\x13KratosConfDataProtoP\x01Z6github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1\xa2\x02\x03CXX\xaa\x02\x04Conf\xca\x02\x04Conf\xe2\x02\x10Conf\\GPBMetadata\xea\x02\x04Confb\x06proto3"
+	"\bcom.confB\x13KratosConfDataProtoP\x01Z6github.com/zbl-jerry/kratos-bootstrap/api/gen/go/conf/v1\xa2\x02\x03CXX\xaa\x02\x04Conf\xca\x02\x04Conf\xe2\x02\x10Conf\\GPBMetadata\xea\x02\x04Confb\x06proto3"
 
 var (
 	file_conf_v1_kratos_conf_data_proto_rawDescOnce sync.Once

@@ -1,10 +1,10 @@
-module github.com/shuaiyy/kratos-bootstrap/rpc
+module github.com/zbl-jerry/kratos-bootstrap/rpc
 
 go 1.24.6
 
 replace (
-	github.com/shuaiyy/kratos-bootstrap/api => ../api
-	github.com/shuaiyy/kratos-bootstrap/utils => ../utils
+	github.com/zbl-jerry/kratos-bootstrap/api => ../api
+	github.com/zbl-jerry/kratos-bootstrap/utils => ../utils
 )
 
 require (
@@ -12,8 +12,8 @@ require (
 	github.com/go-kratos/aegis v0.2.0
 	github.com/go-kratos/kratos/v2 v2.8.4
 	github.com/gorilla/handlers v1.5.2
-	github.com/shuaiyy/kratos-bootstrap/api v0.0.1
-	github.com/shuaiyy/kratos-bootstrap/utils v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/utils v0.0.1
 	google.golang.org/grpc v1.75.0
 	google.golang.org/protobuf v1.36.9
 )
