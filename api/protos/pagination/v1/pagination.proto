@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package pagination;
 
-option go_package = "github.com/shuaiyy/kratos-bootstrap/api/gen/go/pagination/v1;pagination";
+option go_package = "github.com/zbl-jerry/kratos-bootstrap/api/gen/go/pagination/v1;v1";
 
 import "google/protobuf/field_mask.proto";
 import "gnostic/openapi/v3/annotations.proto";

@@ -6,7 +6,7 @@ managed:
   optimize_for: SPEED
 
   go_package_prefix:
-    default: github.com/shuaiyy/kratos-bootstrap/api/gen/go
+    default: github.com/zbl-jerry/kratos-bootstrap/api/gen/go
     except:
       - 'buf.build/googleapis/googleapis'
       - 'buf.build/envoyproxy/protoc-gen-validate'
@@ -16,7 +16,6 @@ managed:
 
 plugins:
   # generate go struct code
-  #- plugin: buf.build/protocolbuffers/go
-  - name: go
+  - plugin: buf.build/protocolbuffers/go:v1.36.5
     out: gen/go
     opt: paths=source_relative
